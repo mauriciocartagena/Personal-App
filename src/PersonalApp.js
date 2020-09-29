@@ -1,9 +1,9 @@
 import React from 'react'
+import { AppRouter } from './routers/AppRouter';
+
 
 export const PersonalApp = () => {
     return (
-        <div>
-            <h1>Personal App</h1>
-        </div>
+      <AppRouter/>
     );
 };
