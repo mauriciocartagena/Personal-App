@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/personalApp/static/css/main.f9cab2d7.chunk.css",
+    "main.js": "/personalApp/static/js/main.feaaafde.chunk.js",
+    "main.js.map": "/personalApp/static/js/main.feaaafde.chunk.js.map",
+    "runtime-main.js": "/personalApp/static/js/runtime-main.49fd235a.js",
+    "runtime-main.js.map": "/personalApp/static/js/runtime-main.49fd235a.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/personalApp/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.bd02ad7c.chunk.js": "/personalApp/static/js/2.bd02ad7c.chunk.js",
+    "static/js/2.bd02ad7c.chunk.js.map": "/personalApp/static/js/2.bd02ad7c.chunk.js.map",
+    "index.html": "/personalApp/index.html",
+    "precache-manifest.84de0b50fcc52cc6eaa2a77ccdfa0ddb.js": "/personalApp/precache-manifest.84de0b50fcc52cc6eaa2a77ccdfa0ddb.js",
+    "service-worker.js": "/personalApp/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/personalApp/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.f9cab2d7.chunk.css.map": "/personalApp/static/css/main.f9cab2d7.chunk.css.map",
+    "static/js/2.bd02ad7c.chunk.js.LICENSE.txt": "/personalApp/static/js/2.bd02ad7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49fd235a.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.bd02ad7c.chunk.js",
+    "static/css/main.f9cab2d7.chunk.css",
+    "static/js/main.feaaafde.chunk.js"
+  ]
+}
