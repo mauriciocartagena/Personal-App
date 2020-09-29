@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import { Floor } from '../components/floor/Floor';
 import { PersonScreen } from '../components/personas/PersonScreen';
 import { SearchScreen } from '../components/search/SearchScreen';
+import { Footer } from '../components/ui/Footer';
 import { Navbar } from '../components/ui/Navbar';
 
 export const DashBoardRoutes = () => {
@@ -11,18 +12,17 @@ export const DashBoardRoutes = () => {
             <Navbar/>
 
             
-            <div className='container mt-2' >
-            <Switch>
-                    <Route exact path="/person/:personId"  component={ PersonScreen } />
-                    <Route exact path="/search"  component={ SearchScreen } />
-                    <Route exact path="/floor"  component={ Floor } />
+            <div className='container mt-2' style={{ paddingBottom: 60}} >
+                <Switch>
+                        <Route exact path="/person/:personId"  component={ PersonScreen } />
+                        <Route exact path="/search"  component={ SearchScreen } />
+                        <Route exact path="/floor"  component={ Floor } />
 
-                    <Redirect  to="/search" />
-            </Switch>
-
-
-                
+                        <Redirect  to="/search" />
+                </Switch>   
             </div>
+            <hr/>
+            <Footer/>
         </>
     )
 }
