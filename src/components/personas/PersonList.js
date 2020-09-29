@@ -1,10 +1,10 @@
 import React, { useMemo } from 'react';
-import { getPersonByUnid } from '../../selectors/getPersonByUnid';
+import { getPersonByFloor } from '../../selectors/getPersonByFloor';
 import { PersonCard } from './PersonCard';
 
-export const PersonList = ({ unidad }) => {
+export const PersonList = ({ floor }) => {
 
-    const persons=  useMemo(() => getPersonByUnid( unidad ), [unidad])
+    const persons=  useMemo(() => getPersonByFloor( floor ), [floor]);
 
     return (
         <>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { ComboBox } from './ComboBox';
+
 
 export const Navbar = () => {
 
@@ -8,22 +10,13 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="/"
+                to="/search"
             >
                 Asociaciones
             </Link>
 
             <div className="navbar-collapse">
                 <div className="navbar-nav navbar-dark">
-
-                    <NavLink 
-                        activeClassName="active"
-                        className="nav-item nav-link" 
-                        exact
-                        to="/unidades"
-                    >
-                        Inicio
-                    </NavLink>  
                     <NavLink 
                         activeClassName="active"
                         className="nav-item nav-link" 
@@ -31,7 +24,8 @@ export const Navbar = () => {
                         to="/search"
                     >
                         Buscar
-                    </NavLink>  
+                    </NavLink>
+                    <ComboBox />
                 </div>
             </div>
 

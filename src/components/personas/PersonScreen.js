@@ -56,7 +56,7 @@ export const PersonScreen = ({ history }) => {
                     <li className="list-group-item" ><b> Ubicación: </b>{ ubicacion }</li>
                     <li className="list-group-item" ><b> Piso: </b>{ piso }</li>
                 </ul>
-s                <hr/>
+                <hr/>
                 <h5>Telefonos</h5>
                 <p>{ telefono }</p>
 
