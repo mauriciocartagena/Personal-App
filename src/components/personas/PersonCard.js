@@ -16,7 +16,7 @@ export const PersonCard = ({
        setstate(true);
     }
     return (
-        <div className="card ms-3" style={{ maxWidth:540 }}  >
+        <div className="card ms-3 col-8" style={{ maxWidth:540 }}  >
             <div className="row no-gutters">
                 <div  className="col-md-4">
                     {

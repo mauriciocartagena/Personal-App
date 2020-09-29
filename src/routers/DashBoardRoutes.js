@@ -12,7 +12,7 @@ export const DashBoardRoutes = () => {
             <Navbar/>
 
             
-            <div className='container mt-2' style={{ paddingBottom: 60}} >
+            <div className='container mt-2' style={{ paddingBottom: 100}} >
                 <Switch>
                         <Route exact path="/"  component={ SearchScreen } />
                         <Route exact path="/person/:personId"  component={ PersonScreen } />
