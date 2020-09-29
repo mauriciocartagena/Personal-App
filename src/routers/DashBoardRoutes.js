@@ -14,11 +14,11 @@ export const DashBoardRoutes = () => {
             
             <div className='container mt-2' style={{ paddingBottom: 60}} >
                 <Switch>
+                        <Route exact path="/"  component={ SearchScreen } />
                         <Route exact path="/person/:personId"  component={ PersonScreen } />
-                        <Route exact path="/search"  component={ SearchScreen } />
                         <Route exact path="/floor"  component={ Floor } />
 
-                        <Redirect  to="/search" />
+                        <Redirect  to="/" />
                 </Switch>   
             </div>
             <hr/>

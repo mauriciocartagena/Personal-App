@@ -6,7 +6,7 @@ import { DashBoardRoutes } from './DashBoardRoutes'
 
 export const AppRouter = () => {
     return (
-        <Router basename={ '/personalApp' } >
+        <Router basename="/personalApp">
             <DashBoardRoutes/>
         </Router>
     )

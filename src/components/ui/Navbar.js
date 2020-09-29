@@ -10,7 +10,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="/search"
+                to="/"
             >
                 Asociaciones
             </Link>
@@ -21,7 +21,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/search"
+                        to="/"
                     >
                         Buscar
                     </NavLink>
