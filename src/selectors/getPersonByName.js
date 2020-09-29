@@ -2,7 +2,7 @@ import { persons } from "../data/persons";
 
 export const getPersonByName = ( name = '' ) =>{
 
-    if ( name = '' ) {
+    if ( name === '' ) {
         return [];
     }
     name = name.toLocaleLowerCase();
